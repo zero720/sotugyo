@@ -1,0 +1,197 @@
+.inner {
+  display:flex;
+  margin-top:200px;
+  font-family: serif;
+}
+
+span {
+  font-size:40px;
+  font-weight:bold;
+}
+
+.inner p {
+  line-height:1.8;
+  margin-left:50px;
+}
+.grid {
+  display:grid;
+  gap:26px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top:6%;
+  margin-bottom:50px; 
+   font-family: serif;
+}
+
+.grid img {
+  height:200px;
+  width:90%;
+  margin-top:100px;
+}
+
+.t {
+  font-size:20px;
+  margin-left:30px;
+font-weight:bold;
+}
+
+.title {
+    font-size:50px;
+    text-align: center;
+    margin-top:200px;
+    font-family: serif;
+    background:url("../img/苔.jpeg") no-repeat ;
+    background-size: cover;
+    color:white;
+    width:100%;
+    height:500px;
+    position:relative;
+    top:-100px;
+    margin-bottom:200px;
+}
+
+.L {
+  position:relative;
+  top:200px;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    height:3050px;
+  }
+  .inner img {
+    width:50%;
+  }
+  .inner span {
+    font-size:30px;
+  }
+
+  main p {
+   white-space: nowrap; 
+   font-size:13px;
+  }
+  .L {
+   font-size:50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .item img {
+    width:70%;
+  }
+  .item p {
+    font-size:10px;
+  }
+
+  body {
+    height:2535px
+  }
+  .inner p {
+    font-size:12px;
+  }
+
+  .inner span {
+    font-size:20px;
+  }
+  .item .t {
+    font-size:15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+.inner img {
+  width:100%;
+
+}
+
+.inner p {
+  position:relative;
+  top:300px;
+  position:relative;
+  left:-410px;
+  font-size:15px;
+}
+
+
+.A {
+  position:relative;
+  top:200px;
+  
+}
+.A  img{
+width:375px;
+}
+
+.A p {
+position:relative;
+top:20px;
+font-size:13px;
+text-align:center;
+position:relative;
+left:-20px;
+}
+
+.t {
+  font-size:20px;
+  text-align:center;
+  position:relative;
+  left:-20px;
+}
+ 
+main {
+  height:3000px;
+  overflow: hidden;
+}
+
+.B {
+  position:relative;
+  top:600px;
+  position:relative;
+  left:-410px;
+}
+.B img {
+  width:375px;
+}
+
+.B p {
+  font-size:13px;
+  width:350px;
+  position: relative;
+  left:30px;
+}
+
+.C {
+  position:relative;
+  top:1000px;
+  position:relative;
+  left:-810px;
+}
+.C img {
+  width:375px;
+}
+
+.C p {
+  font-size:13px;
+  width:360px;
+position:relative;
+left:30px;
+}
+.B .t {
+  position:relative;
+  left:-20px;
+  width:360px;
+}
+
+.item {
+  width:375px;
+}
+
+.C .t {
+position:relative;
+left:-30px;
+}
+
+footer {
+  margin-top:-200px;
+  height:250px;
+}
+
+}

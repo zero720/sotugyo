@@ -1,0 +1,376 @@
+@charset "UTF-8";
+
+.I {
+  width:70%;
+  float:right;
+  height:500px;
+}
+
+.slide p {
+  writing-mode: vertical-rl;
+  font-family:serif;
+ font-size:15px;
+ margin-top:100px;
+ line-height:1.8;
+ font-weight:300;
+ font-size:30px;
+ letter-spacing: 20px;
+ position:relative;
+ right:-40px;
+}
+
+
+
+.slide_inner {
+  display:flex;
+}
+
+.ryokan {
+  display: flex;
+  margin-top:300px;
+  align-items: center;
+}
+
+.ryokan img {
+  width:40%;
+  position:relative;
+  right:-400px;
+
+}
+
+.ryokan span {
+  font-size:30px;
+  font-weight: bold;
+  font-family:serif;
+ position:relative;
+ right:-30px;
+position:relative;
+top:-100px;
+border-bottom: solid green 3px;
+}
+
+.ryokan p {
+  position:relative;
+  right:-200px;
+  line-height:1.8;
+   background-image: url("../img/01c51cbba2da128b512b20fe607b2750_t.jpeg") no-repeat;
+   background-size:cover;
+}
+
+.sizen {
+  display:flex;
+  margin-top:200px;
+}
+
+
+
+
+.sizen span {
+  font-size:30px;
+  font-weight: bold;
+  font-family:serif;
+  position:relative;
+  left:100px;
+  position:relative;
+  top:-100px;
+  border-bottom: solid green 3px;
+}
+
+
+
+.sizen img {
+  width:40%;
+  position:relative;
+  left:100px;
+}
+
+.sizen p {
+  position:relative;
+  left:300px;
+  position:relative;
+  top:100px;
+}
+
+.food {
+  display:flex;
+  margin-top:200px;
+}
+
+.food img {
+  width:15%;
+position:relative;
+left:350px;
+}
+
+.food span {
+font-size:30px;
+  font-weight: bold;
+  font-family:serif;
+  border-bottom: solid green 3px;
+position:relative;
+top:-100px;}
+
+.food p {
+  position:relative;
+  top:100px;
+   position:relative;
+ right:-200px;
+}
+
+.tradition {
+  display:flex;
+   margin-top:300px;
+}
+
+.tradition img {
+  width:15%;
+ height:300px;
+ position:relative;
+ left:70px;
+}
+
+.tradition span {
+  font-size:30px;
+  font-weight: bold;
+  font-family:serif;
+ position:relative;
+ top:-70px;
+ border-bottom: solid green 3px;
+}
+
+.tradition p {
+  margin-top:70px;
+}
+iframe {
+  width:100%;
+  margin-top:300px;
+}
+
+.tradition p {
+  position:relative;
+  left:300px;
+}
+
+body {
+  font-family:serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .ryokan img {
+    position:relative;
+    left:240px;
+  }
+  .food  {
+    position:relative;
+    left:-130px;
+  }
+  body {
+    height:4550px;
+  }
+ 
+}
+@media screen and (max-width: 768px) {
+  .ryokan {
+    position:relative;
+    left:-170px;
+  }
+
+  .sizen {
+    position:relative;
+   left:-200px;
+  }
+
+
+  .tradition {
+    position:relative;
+    left:-150px;
+  }
+
+  .sizen {
+    margin-left:100px;
+  }
+
+ .tradition img {
+   position:relative;
+   left:160px;
+ }
+
+ .food img {
+   position:relative;
+   left:220px;
+  position:relative;
+  bottom:-50px;
+ }
+
+ .sizen p {
+   position:relative;
+   top:10px;
+ }
+
+.slide_inner p {
+  font-size:20px;
+}
+
+.food span {
+  position:relative;
+  top:-30px;
+}
+
+.food p {
+  position:relative;
+  top:70px;
+  position:relative;
+  left:150px;
+}
+
+.tradition span {
+  position:relative;
+  top:-30px;
+}
+
+.sizen span {
+  position:relative;
+  top:-30px;
+}
+
+body {
+  height:3900px;
+}
+}
+@media screen and (max-width: 480px) {
+.I {
+  width:100%;
+}
+.slide_inner p{ 
+  position:relative;
+  bottom:-500px;
+  position:relative;
+  left:80px;
+}
+
+.ryokan {
+  position:relative;
+  bottom:-500px;
+  position:relative;
+  right:200px;
+}
+
+.ryokan img {
+ position: relative;
+ right:440px;
+  width:80%;
+  margin-left:-365px;
+  position:relative;
+  top:-230px;
+}
+.ryokan p {
+  white-space: nowrap;
+}
+
+.ryokan span {
+ position:relative;
+ top:-10px;
+
+}
+
+
+ 
+
+
+.sizen {
+  position:relative;
+  bottom:-500px;
+}
+.sizen p {
+position:relative;
+top:200px;
+position:relative;
+left:-170px;
+white-space: nowrap;
+}
+
+.sizen span {
+  position: relative;
+  left:10px;
+}
+
+.sizen  img {
+ margin-left:50px;
+  width:200%;
+  position:relative;
+  top:-100px;
+  height:200px;
+  position:relative;
+
+}
+
+.food {
+  position:relative;
+  bottom:-500px; 
+}
+.food img {
+  width:30%;
+  height:200px;
+position:relative;
+left:-150px;
+}
+
+.food p {
+  position:relative;
+  top:300px;
+  white-space: nowrap;
+}
+
+.tradition {
+  position:relative;
+  bottom:-500px;
+}
+
+.tradition img {
+width:30%;
+height:200px;
+}
+
+.tradition p {
+white-space: nowrap;
+margin-top:250px;
+position:relative;
+left:-100px;
+}
+
+
+iframe {
+  position:relative;
+  bottom:-300px;
+}
+footer {
+  position:relative;
+  bottom:-100px;
+}
+
+body {
+  height:4000px;
+}
+
+footer p {
+  position:relative;
+  right:-50px;
+}
+footer  {
+height:200px;
+}
+footer img {
+  width:30%;
+}
+
+footer ul{
+position:relative;
+right:400px;
+position:relative;
+top:90px;
+margin-left:30px;
+}
+body {
+ height:4000px;
+}
+} 
